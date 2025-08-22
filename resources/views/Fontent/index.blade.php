@@ -24,9 +24,12 @@
                 <div class="col-lg-8">
                     <div class="section-title">
                         <span class="h6 text-color ">We are creative & expert people</span>
-                        <h2 class="mt-3 content-title">We work with business & provide solution to Government/Semi Government Public Transport Operators with their
+                        <h2 class="mt-3 content-title">We work with business & provide solution to Government/Semi
+                            Government Public Transport Operators with their
                             business problem
                         </h2>
+                        <p class="h6 text-color" style="color: green">- We are not just a vendor but your
+                            technology partner</p>
                     </div>
                 </div>
             </div>
@@ -35,21 +38,26 @@
                     <div class="intro-item mb-5 mb-lg-0">
                         <i class="ti-desktop color-one"></i>
                         <h4 class="mt-4 mb-3">Modern & Responsive design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+                        <p>Technology We are works with</p>
+                        <span>Android</span><br>
+                        <span>Asp.net</span><br>
+                        <span>Laravel</span>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="intro-item mb-5 mb-lg-0">
                         <i class="ti-medall color-one"></i>
                         <h4 class="mt-4 mb-3">Awarded licensed company</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+                        <span>Iso Certification</span> <br>
+                        <span>Announcement Trophy</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="intro-item">
                         <i class="ti-layers-alt color-one"></i>
-                        <h4 class="mt-4 mb-3">Build your website Professionally</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+                        <h4 class="mt-4 mb-3">Build your Solution Professionally</h4>
+                        <p>List of something</p>
                     </div>
                 </div>
             </div>
@@ -90,25 +98,25 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="counter-item text-center mb-5 mb-lg-0">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">1730</span> +</h3>
+                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">50</span> +</h3>
                         <p class="text-muted">Project Done</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="counter-item text-center mb-5 mb-lg-0">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">125 </span>M </h3>
+                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">10</span> +</h3>
                         <p class="text-muted">User Worldwide</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="counter-item text-center mb-5 mb-lg-0">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">39</span></h3>
-                        <p class="text-muted">Availble Country</p>
+                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">6</span>+</h3>
+                        <p class="text-muted">Available Country</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="counter-item text-center">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">14</span></h3>
+                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">1</span>+</h3>
                         <p class="text-muted">Award Winner </p>
                     </div>
                 </div>
@@ -124,6 +132,7 @@
                     <div class="section-title">
                         <span class="h6 text-color">Our Services</span>
                         <h2 class="mt-3 content-title ">We provide a wide range of creative services </h2>
+
                     </div>
                 </div>
             </div>
@@ -190,7 +199,7 @@
                         <span class="h6 text-color">We create for you</span>
                         <h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
                         <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
-                        <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
+                        <h3><i class="ti-mobile mr-3 text-color"></i>+12 345 67 8910</h3>
                     </div>
                 </div>
             </div>
@@ -286,7 +295,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="card bg-transparent border-0">
-                        <img loading="lazy" src="images/blog/1.jpg" alt="blog" class="img-fluid rounded">
+                        <img loading="lazy" src="{{ asset('frontent_asset/images/blog/1.jpg') }}" alt="blog" class="img-fluid rounded">
 
                         <div class="card-body mt-2">
                             <div class="blog-item-meta">
@@ -306,7 +315,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="card border-0 bg-transparent">
-                        <img loading="lazy" src="images/blog/2.jpg" alt="blog" class="img-fluid rounded">
+                        <img loading="lazy" src="{{asset ('frontent_asset/images/blog/2.jpg') }}" alt="blog" class="img-fluid rounded">
 
                         <div class="card-body mt-2">
                             <div class="blog-item-meta">
@@ -328,7 +337,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="card border-0 bg-transparent">
-                        <img loading="lazy" src="images/blog/3.jpg" alt="blog" class="img-fluid rounded">
+                        <img loading="lazy" src="{{ asset('frontent_asset/images/blog/3.jpg') }}" alt="blog" class="img-fluid rounded">
 
                         <div class="card-body mt-2">
                             <div class="blog-item-meta">

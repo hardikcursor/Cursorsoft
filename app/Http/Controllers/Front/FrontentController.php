@@ -11,4 +11,19 @@ class FrontentController extends Controller
     {
         return view('Fontent.index');
     }
+
+    public function service()
+    {
+        return view('Fontent.service');
+    }
+
+    public function project()
+    {
+        return view('Fontent.project');
+    }
+
+    public function contact()
+    {
+        return view('Fontent.contact');
+    }
 }

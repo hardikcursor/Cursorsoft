@@ -40,9 +40,9 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="widget">
                     <div class="logo mb-4">
-                        <h3>Mega<span>kit.</span></h3>
+                        <h3>Cursor<span>soft.</span></h3>
                     </div>
-                    <h6><a href="mailto:support@gmail.com">Support@megakit.com</a></h6>
+                    <h6><a href="mailto:support@gmail.com">Support@cursor-soft.com</a></h6>
                     <a href="tel:+23-345-67890"><span class="text-color h4">+23-456-6588</span></a>
                 </div>
             </div>
@@ -52,8 +52,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="copyright">
-                        Copyright &copy; 2020, Designed &amp; Developed by <a
-                            href="https://themefisher.com/">Themefisher</a>
+                        Copyright &copy; 2025, Designed &amp; Developed by <a
+                            href="https://themefisher.com/">Cursorsoft</a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-left text-lg-right">
